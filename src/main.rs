@@ -3,6 +3,8 @@ use bevy_inspector_egui::quick::WorldInspectorPlugin;
 use dungen_game::map::level;
 use dungen_game::components;
 use dungen_game::charecter::player::PlayerPlugin;
+use dungen_game::charecter::r#box::{despawn, hit_detektion};
+use dungen_game::map::level::reload_level;
 
 fn main() {
     App::new()
@@ -19,10 +21,14 @@ fn main() {
         )
         .add_plugins(WorldInspectorPlugin::new())
         .add_plugins(PlayerPlugin{})
+
         .add_systems(Startup, setup)
         .add_systems(Startup, level::lode_level)
 //        .add_systems(Update, player::movement)
         .add_systems(Update, move_cam)
+        .add_systems(Update, despawn)
+        .add_systems(Update, hit_detektion)
+        .add_systems(Update, reload_level)
         .run();
 }
 

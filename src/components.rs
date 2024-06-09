@@ -20,6 +20,18 @@ pub struct Dir {
     pub direction: Direction,
 }
 
+#[derive(Component)]
+pub struct Hit {
+    pub just_hit:bool,
+    pub item: Item,
+}
+
+#[derive(Component)]
+pub struct Despawn{}
+
+#[derive(Component)]
+pub struct Level {}
+
 #[derive(PartialEq, Clone)]
 pub enum Direction {
    Up,
@@ -27,4 +39,10 @@ pub enum Direction {
     Left,
     Right,
     None,
+}
+
+#[derive(Component)]
+pub  enum Item {
+    Box,
+    Enemy,
 }
