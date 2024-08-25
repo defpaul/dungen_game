@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "2359fd76428e85e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "8965094f0754293f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c2b606ef3a2e574",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fn()/fn() level.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "344b254538f9cbc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fn()/fn() level.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "829192de7d5ec401",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fn()/fn() player.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfff69352d2e9f3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6fa72db1bf7bd98a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "77b77ba95d423fb7",
+    "type": "split",
+    "children": [
+      {
+        "id": "1c4c1c4a539bf8e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cce377b4b8e991ef",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4fe05accfd89ff3d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "97780b51fae61da7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2130b4e66a77ada5",
+    "type": "split",
+    "children": [
+      {
+        "id": "babfbad59885326b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe2a22262e96bba8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "structure.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "38db1dc4fe60fca3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "structure.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "873b7e245bb1921e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b8477edafe0fa8ca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "structure.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "cfff69352d2e9f3a",
+  "lastOpenFiles": [
+    "fn()/fn() player.md",
+    "componets.md",
+    "fn()/fn() level.md",
+    "fn()/fn() Setup.md",
+    "fn()/fn() player",
+    "structure.md",
+    "fn() Main.md",
+    "fn()/player",
+    "fn()/level",
+    "Main.md",
+    "fn()"
+  ]
+}
